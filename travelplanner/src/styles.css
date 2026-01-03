@@ -1,0 +1,136 @@
+/* 🌍 Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F7F9FC;
+  color: #333;
+}
+
+/* 🔵 Navbar */
+nav {
+  background: #008080; /* Teal */
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #FF6B6B; /* Coral */
+}
+
+/* 🏠 Home Page */
+.home {
+  text-align: center;
+  padding: 50px;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  color: #008080; /* Teal */
+}
+
+/* 🔍 Explore Page */
+.explore {
+  padding: 40px;
+  text-align: center;
+}
+
+.explore h1 {
+  font-size: 2rem;
+  color: #FF6B6B; /* Coral */
+}
+
+.explore p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* 🗺️ Travel Planner */
+.travel-planner {
+  text-align: center;
+  padding: 40px;
+}
+
+.travel-planner h1 {
+  color: #008080; /* Teal */
+}
+
+/* 💾 Saved Trips */
+.saved-trips {
+  text-align: center;
+  padding: 40px;
+}
+
+.saved-trips h1 {
+  color: #FF6B6B; /* Coral */
+}
+
+/* 👤 Profile Page */
+.profile {
+  text-align: center;
+  padding: 40px;
+}
+
+.profile h1 {
+  color: #333; /* Dark */
+}
+
+/* 🔑 Login & Register Forms */
+.login, .register {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login h1, .register h1 {
+  color: #008080; /* Teal */
+}
+
+.login form, .register form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login input, .register input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login button, .register button {
+  padding: 12px;
+  background: #FF6B6B; /* Coral */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.login button:hover, .register button:hover {
+  background: #E45757; /* Darker Coral */
+}
